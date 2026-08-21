@@ -1,0 +1,14 @@
+primero activamos .venv
+source .venv/Scripts/activate
+despues corremos el servidor
+python -m uvicorn app.main:app --reload 
+corremos el servidor
+
+cuando se instalen dependencias primero se debe asegurar que estemos en el entorno .nenv
+source .venv/Scripts/activate
+
+MONGO
+instalacion de dependencias
+python -m pip install "pymongo[srv]" python-dotenv
+pymongo       → conexión con MongoDB
+python-dotenv → leer variables de entorno desde .env
