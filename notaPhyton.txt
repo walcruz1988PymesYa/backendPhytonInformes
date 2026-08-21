@@ -12,3 +12,9 @@ instalacion de dependencias
 python -m pip install "pymongo[srv]" python-dotenv
 pymongo       → conexión con MongoDB
 python-dotenv → leer variables de entorno desde .env
+
+ANTES DE DEPLOYAR VERIFICO A QUE GITHUB ESTOY APUNTANDO
+--->git remote -v
+
+si apunta a otra cuenta de github o al hacer push intenta realizar la subida a otra cuenta borramos las credenciales
+-->printf "protocol=https\nhost=github.com\n\n" | git credential-manager erase
