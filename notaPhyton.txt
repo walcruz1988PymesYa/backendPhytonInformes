@@ -1,6 +1,6 @@
-primero activamos .venv
+->primero activamos .venv
 source .venv/Scripts/activate
-despues corremos el servidor
+-->despues corremos el servidor
 python -m uvicorn app.main:app --reload 
 corremos el servidor
 
